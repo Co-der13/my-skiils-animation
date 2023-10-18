@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.alls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+   
+
+}
+
+.dops{
+    height: 60px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.dopsbar{
+width: 250px;
+height: 25px;
+border-radius: 20px;
+overflow: hidden;
+color: rgb(201, 162, 162);
+background-color: gray;
+position: relative;
+}
+.dopspercent{
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    
+    background-color:rgb(212, 219, 16);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 2s;
+}
